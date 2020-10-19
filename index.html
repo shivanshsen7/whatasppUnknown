@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Redirect</title>
+    <style>
+        main {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 30vh 1fr 1fr 30vh;
+            gap: 1rem;
+        }
+
+        h1{
+            grid-column: 3/11;
+            grid-row: 1/2;
+        }
+        input {
+            grid-column: 3/11;
+            grid-row: 2/3;
+        }
+
+        button {
+            grid-column: 3/11;
+            grid-row:
+                3/4;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Whatapp Redirect for Unknown Numbers</h1>
+        <input id="number" type="text">
+        <button id="redirectMe">Redirect Me</button>
+        <script>
+            let button = document.getElementById("redirectMe");
+            let numb = document.getElementById("number");
+            button.addEventListener("click", () => {
+                let redirectLink = "https://wa.me/91" + numb.value;
+                // console.log(redirectLink);
+                window.location.href = redirectLink;
+
+            })
+        </script>
+    </main>
+</body>
+
+</html>

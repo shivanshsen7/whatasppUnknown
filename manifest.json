@@ -3,7 +3,7 @@
     "short_name": "Click",
     "icons": [
         {
-            "src": "logo.svg",
+            "src": "img/logo.svg",
             "sizes": "92x92",
             "type": "image/svg"
         }      

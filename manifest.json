@@ -1,0 +1,16 @@
+{
+    "name": "Click to Mess",
+    "short_name": "Click",
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "92x92",
+            "type": "image/svg"
+        }      
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#f0f2f5",
+    "theme_color": "#96f2d7"
+}

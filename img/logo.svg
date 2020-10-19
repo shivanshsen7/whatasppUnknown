@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #4475cb;
+      }
+
+      .cls-3 {
+        fill: #43c82f;
+      }
+
+      .cls-4 {
+        fill: #707070;
+        font-size: 25px;
+        font-family: SegoeUIBlack-Italic, Segoe UI;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0 -159)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M45.34,0A45.34,45.34,0,1,1,0,45.34,45.34,45.34,0,0,1,45.34,0Z" transform="translate(0 159)"/>
+    <path id="Rectangle_1" data-name="Rectangle 1" class="cls-2" d="M15.234,0H43.769A15.234,15.234,0,0,1,59,15.234V30.469a0,0,0,0,1,0,0H15.234A15.234,15.234,0,0,1,0,15.234v0A15.234,15.234,0,0,1,15.234,0Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 18.354, 173.911)"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-3" d="M15.234,0H43.769A15.234,15.234,0,0,1,59,15.234v0A15.234,15.234,0,0,1,43.769,30.469H0a0,0,0,0,1,0,0V15.234A15.234,15.234,0,0,1,15.234,0Z" transform="matrix(0.995, 0.105, -0.105, 0.995, 14.328, 175.103)"/>
+    <text id="Chat" class="cls-4" transform="translate(15 233.681)"><tspan x="0" y="0">Chat</tspan></text>
+  </g>
+</svg>

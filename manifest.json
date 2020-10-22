@@ -1,7 +1,7 @@
 {
     "name": "Click to Mess",
     "short_name": "Click",
-     "start_url": ".",
+     "start_url": "/whatasppUnknown/",
     "background_color": "#f0f2f5",
     "theme_color": "#96f2d7",
     "icons": [

@@ -2,51 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat +</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="manifest.json">
-    <title>Whatsapp Redirect</title>
-    <style>
-        main {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 30vh 1fr 1fr 30vh;
-            gap: 1rem;
-        }
+    <link rel="apple-touch-icon" href="favicon.png">
 
-        h1{
-            grid-column: 3/11;
-            grid-row: 1/2;
-        }
-        input {
-            grid-column: 3/11;
-            grid-row: 2/3;
-        }
+    <meta name="theme_color" content="#007066">
+    <meta charset="UTF-8">
+    <!-- Primary Meta Tags -->
+    <title>Click to Chat Unknown numbers</title>
+    <meta name="title" content="Click to Chat Unknown numbers">
+    <meta name="description" content="directly chat with anyone with just their number, without saving them.">
 
-        button {
-            grid-column: 3/11;
-            grid-row:
-                3/4;
-        }
-    </style>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Click to Chat Unknown numbers">
+    <meta property="og:description" content="directly chat with anyone with just their number, without saving them.">
+    <meta property="og:image" content="/img/whatsaap-small-icon.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Click to Chat Unknown numbers">
+    <meta property="twitter:description"
+        content="directly chat with anyone with just their number, without saving them.">
+    <meta property="twitter:image" content="/img/whatsaap-small-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
 </head>
 
 <body>
-    <main>
-        <h1>Whatapp Redirect for Unknown Numbers</h1>
-        <input id="number" type="text">
-        <button id="redirectMe">Redirect Me</button>
-        <script>
-            let button = document.getElementById("redirectMe");
-            let numb = document.getElementById("number");
-            button.addEventListener("click", () => {
-                let redirectLink = "https://wa.me/91" + numb.value;
-                // console.log(redirectLink);
-                window.location.href = redirectLink;
 
-            })
-        </script>
-    </main>
+    <img class="whatsapp-icon-main" src="/img/whatsaap-icon.png" alt="whatsapp-icon">
+    <h2>Enter a No. to Chat</h2>
+    <div class="number-entry">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-plus" viewBox="0 0 24 24" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+        </svg>
+
+        <input id="country-code" type="text" placeholder="91" value="91">
+        <input id="mobile-number" type="tel" placeholder="Input number here" value="">
+    </div>
+    <div class="open">
+        <span>Open</span>
+        <img class="whatsapp-icon-open" src="/img/whatsaap-small-icon.png" alt="whatsapp-icon">
+    </div>
+
+    <div class="install-banner">
+
+    </div>
+    <script src="/main.js"></script>
+
 </body>
 
 </html>

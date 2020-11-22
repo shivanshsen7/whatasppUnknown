@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    margin-top: 3rem;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 1;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.whatsapp-icon-main {
+    height: 50vw;
+    transition: all 200ms ease-in-out;
+}
+
+@media (min-width:500px) {
+    .whatsapp-icon-main {
+        height: 20vh;
+    }
+}
+
+.number-entry {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap: 0.6rem;
+    height: 3rem;
+
+}
+
+.icon-tabler-plus {
+    stroke-width: 0.2rem;
+    stroke: #2c3e50;
+    height: 1.2rem;
+
+}
+
+#country-code {
+    width: 2rem;
+    height: 1.5rem;
+    text-align: center;
+    padding: 0.15rem;
+    font-size: 1rem;
+    border: 1px solid #007066;
+
+}
+
+#country-code:focus {
+    background-color: rgba(0, 112, 102, 0.2)
+}
+
+#mobile-number {
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 10rem;
+    text-align: center;
+    padding: 0.15rem;
+    border: 1px solid #007066;
+}
+
+#mobile-number:focus {
+    background-color: rgba(0, 112, 102, 0.2)
+}
+
+.open {
+    padding: 0rem 1.6rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.2rem;
+    background-color: #fff;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #007066;
+    margin-top: 2rem;
+}
+
+.whatsapp-icon-open {
+    width: 2rem;
+    padding: 0.1rem;
+}

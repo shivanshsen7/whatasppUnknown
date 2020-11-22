@@ -1,0 +1,22 @@
+{
+    "name":"Click to Chat",
+    "short_name":"Chat+",
+    "start_url":".",
+    "background_color":"#f8f8f8",
+    "theme_color":"#007066",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"img/whatsaap-icon.png    ",
+            "sizes":"837x837",
+            "types":"image/png"
+        },
+        {
+            "src":"img/whatsaap-small-icon.png",
+            "sizes":"275x275",
+            "types":"image/png"
+        }
+    ]
+
+    
+}
